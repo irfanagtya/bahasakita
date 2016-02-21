@@ -9,9 +9,8 @@ $username=$_POST['user'];
 $password=$_POST['password'];
 session_start();
 if(isset($_POST['submit'])) {
-//	$query=mysq_query("select username,password from login where username='$_POST['username']' and password='$_POST['password']'",$conn) or die(mysql_error());
-	$row=mysql_fecth_array($query) or die(mysql_error()));
- )
+	$query=mysql_query("SELECT *  FROM UserName where userName = '$_POST[username]' AND pass = '$_POST[password]'") or die(mysql_error());
+	$row=mysql_fetch_array($query) or die(mysql_error());
 	if(!empty($_POST['user'] AND !empty($_POST['password']))) {
 		$_SESSION['username']=$row['password'];
 		header("Location: index.html");
@@ -20,3 +19,7 @@ if(isset($_POST['submit'])) {
 		echo "Kamu telah memasukkan username dan password yang salah!";
 	}
 }
+?>
+
+
+
