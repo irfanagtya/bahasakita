@@ -25,6 +25,38 @@ span.jabatan {
 div.explanation {
 	width:400px;
 	height:200px;
+	border:solid 5px white;
+}
+div.section1 {
+	display:inline-block;
+}
+div.section2 {
+	display:inline-block;
+}
+div.subsection2first {
+	margin-top:30px;
+	margin-bottom:30px; 
+<!--	height:30%;  -->
+	border:solid 5px white;
+	display:block;
+}
+div.subsection2second {
+<!--	padding-top:50px;
+	padding-bottom:50px; -->
+<!--	height:30%; -->
+	border:solid 5px white;
+	display:block;
+}
+div.subsection3third {
+	margin-top:30px;
+	margin-bottom:30px; 
+<!--	height:30%;  -->
+border:solid 5px white;
+display:block;
+
+}
+div.section3 {
+	display:inline-block;
 }
 p.introduction {
 	text-align:center;
@@ -35,6 +67,7 @@ img {
 	margin-right:auto;
 }
 nav {
+	padding-top:0;
 	display:block;
 }
 
