@@ -1,74 +1,78 @@
+* {
+	box-sizing:border-box;	
+}
+html,body{
+	height:100%;
+	padding:0;
+	margin:0;
+
+}
 section {
 	display:block;
+	height:93%;
+	width:100%;
 }
 div.img {
-	margin:5px;
+	margin:5px; 
 	border:1px solid #ccc;
 	float:left;
-	width:180px;
+	width:180px; 
 }
 div.img:hover {
 	border: 1px solid #777;
+	box-sizing:border-box;
 }
 div.img img {
-	width:100%;
+	width:100%; 
 	height:auto;
 }
 div.desc {
-	padding:15px;
+	padding:15px; 
 	text-align:center;
 }
 span.jabatan {
-	padding:15px;
+	padding:15px; 
 	text-align:center;
 }
 div.explanation {
-	width:400px;
 	height:200px;
 	border:solid 5px white;
+	box-sizing:border-box;
 }
 div.section1 {
 	display:inline-block;
+	width:29%;
+	
 }
 div.section2 {
 	display:inline-block;
+	width:19%;
+	
 }
 div.subsection2first {
-	margin-top:30px;
-	margin-bottom:30px; 
-<!--	height:30%;  -->
-	border:solid 5px white;
-	display:block;
+
 }
 div.subsection2second {
-<!--	padding-top:50px;
-	padding-bottom:50px; -->
-<!--	height:30%; -->
-	border:solid 5px white;
-	display:block;
+
 }
 div.subsection3third {
-	margin-top:30px;
-	margin-bottom:30px; 
-<!--	height:30%;  -->
-border:solid 5px white;
-display:block;
 
 }
 div.section3 {
 	display:inline-block;
+	width:29%;
+	
 }
 p.introduction {
 	text-align:center;
+	width:100%;
 
 }
-img {
-	margin-left:auto;
-	margin-right:auto;
-}
+
 nav {
 	padding-top:0;
-	display:block;
+	padding-bottom:0;
+	height:7%;
 }
 
 .clearfix {
@@ -78,12 +82,13 @@ nav {
 	margin:0;
 	padding:0;
 	background:#1a1a1a;
+
 }
 nav a {
 	text-decoration:none;
 	display:block;
-    margin:2px 5px 5px 2px; 
-    padding:5px;
+    margin-left:5px;
+    margin-right:5px;
 	float:right;
 	color:white;
 
