@@ -1,0 +1,57 @@
+section {
+	display:block;
+}
+div.img {
+	margin:5px;
+	border:1px solid #ccc;
+	float:left;
+	width:180px;
+}
+div.img:hover {
+	border: 1px solid #777;
+}
+div.img img {
+	width:100%;
+	height:auto;
+}
+div.desc {
+	padding:15px;
+	text-align:center;
+}
+span.jabatan {
+	padding:15px;
+	text-align:center;
+}
+div.explanation {
+	width:400px;
+	height:200px;
+}
+p.introduction {
+	text-align:center;
+
+}
+img {
+	margin-left:auto;
+	margin-right:auto;
+}
+nav {
+	display:block;
+}
+
+.clearfix {
+	clear:both;
+}
+nav {
+	margin:0;
+	padding:0;
+	background:#1a1a1a;
+}
+nav a {
+	text-decoration:none;
+	display:block;
+    margin:2px 5px 5px 2px; 
+    padding:5px;
+	float:right;
+	color:white;
+
+}
