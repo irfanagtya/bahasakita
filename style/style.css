@@ -5,12 +5,15 @@ html,body{
 	height:100%;
 	padding:0;
 	margin:0;
-	background-color : lightblue;
+	
 
+}
+body {
+	background-image:url("BGabout.jpg");
+	
 }
 section {
 	position : fixed;
-	top : 35%;
 	left: 5%;
 	display:block;
 	height:93%;
@@ -39,9 +42,11 @@ span.jabatan {
 	text-align:center;
 }
 div.explanation {
-	height:200px;
+	height:217px;
 	border:solid 5px white;
 	box-sizing:border-box;
+	padding-bottom:10px; 
+	width:300px;
 }
 div.section1 {
 	display:inline-block;
@@ -52,8 +57,9 @@ div.section2 {
 	display:inline-block;
 	width:19%;
 	position : fixed;
-	top : 35%;
-	left: 40%; 
+	top : 21%; 
+	left: 40%;
+
 	
 }
 div.subsection2first {
@@ -69,7 +75,6 @@ div.section3 {
 	display:inline-block;
 	width:29%;
 	position : fixed;
-	top : 35%;
 	right: 0%; 
 	
 }
@@ -106,3 +111,7 @@ nav a {
 	color:white;
 
 }
+img.logoaboutus {
+	left:20%;
+	right:20%;
+} 
