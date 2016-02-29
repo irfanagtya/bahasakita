@@ -9,12 +9,12 @@ html,body{
 
 }
 body {
-	background-image:url("BGabout.jpg");
-	
+	background:#bfbfbf;
+
 }
 section {
 	position : fixed;
-	left: 5%;
+	left: 0%;
 	display:block;
 	height:93%;
 	width:100%;
@@ -58,7 +58,7 @@ div.section2 {
 	width:19%;
 	position : fixed;
 	top : 21%; 
-	left: 40%;
+	left: 38%;
 
 	
 }
@@ -75,7 +75,7 @@ div.section3 {
 	display:inline-block;
 	width:29%;
 	position : fixed;
-	right: 0%; 
+	right: -1%; 
 	
 }
 p.introduction {
