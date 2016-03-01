@@ -2,9 +2,6 @@ body {
     background-image: url(bg.jpg); 
 }
 
-section {
-	display:block;
-}
 
 div.img {
 	margin:5px;
@@ -62,21 +59,7 @@ div.section3 {
     float:right;
 }
 
-div.subsection2first {
-	margin-top:30px;
-	margin-bottom:30px; 
-<!--	height:30%;  -->
-	border:solid 5px white;
-	display:block;
-}
 
-div.subsection2second {
-<!--	padding-top:50px;
-	padding-bottom:50px; -->
-<!--	height:30%; -->
-	border:solid 5px white;
-	display:block;
-}
 
 div.subsection3third {
 	margin-top:30px;
@@ -98,30 +81,13 @@ img {
 	margin-right:auto;
 }
 
-nav {
-	padding-top:0;
-	display:block;
-}
+
 
 .clearfix {
 	clear:both;
 }
 
-nav {
-	margin:0;
-	padding:1%;
-	background:#1a1a1a;
-}
 
-nav a {
-	text-decoration:none;
-	display:block;
-    margin:2px 5px 5px 2px; 
-    padding:5px;
-	float:right;
-	color:white;
-
-}
 
 ul {
     list-style-type: none;
