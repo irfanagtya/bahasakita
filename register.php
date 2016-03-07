@@ -31,14 +31,13 @@ else {
 ?>
 <!DOCTYPE html>
 <html>
-<head>
-<title>Pendaftaran User Bahasakita</title>
-</head>
-<body>
-<!-- <fieldset> -->
-<h1>Daftar Baru User Bahasakita</h1>
-<div>
-<p>
+	<head>
+		<title>BahasaKita</title>
+		<link rel="stylesheet" type="text/css" href="style/style.css"/>
+	</head>
+	<body>
+		<div>
+		<p>
 <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 <label for="email">E-mail</label><input type="text" size="20" name="email"/><br />
 <label for="username">Username</label><input type="text" size="20" name="username"/><br />
@@ -46,6 +45,15 @@ else {
 <input type="submit" value="Daftar" name="submit"\>
 </form>
 </p>
-</div>
-</body>
+		</div>
+		<div class="clearfix"></div>
+			<ul class="ul1"><h2>
+                <li><img class="" src="img/Logo.png" width="200" height="60"></li> 
+                <li style="margin-left:36%"><a href="#">Beranda</a></li>
+			    <li><a href="#">Tentang Kami</a></li>
+                <li><a href="#">Kamus</a></li>
+                <li><a href="#">Kursus</a></li>
+                </h2>
+            </ul>
+	</body>
 </html>
