@@ -18,7 +18,8 @@ $pass=mysql_real_escape_string($_POST["password"]);
 $query=mysql_query("INSERT INTO data_user (email,username,password) VALUES ('$email','$uname','$pass')");
 if($query) {
 	echo "Pendaftaran berhasil!";
-	header("Location: login.html");
+//	sleep(5);
+	header('refresh:2; url='.$_SERVER['PHP_SELF']);
 
 }
 else {
