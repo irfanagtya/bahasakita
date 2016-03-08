@@ -1,5 +1,9 @@
+
+html,body {
+    width:100%;
+}
 body {
-    background-image: url(bg.jpg); 
+    background-color:white;
 }
 
 
@@ -30,33 +34,21 @@ span.jabatan {
 }
 
 div.explanation {
-	width:100%;
-	height:100%;
-	border:solid 10px lightgrey;
-    margin-top:20%;
-    margin-bottom: 10%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-right: 4%;
-    padding-left: 4%;
-    background-color: darkgray;
+width: 29%;
+height: 100%;
+border-style: solid;
+border-color: #D3D3D3;
+border-width: 10px;
+margin-top: 5%;
+margin-bottom: 4%;
+padding: 2% 5%;
+background-color: #A9A9A9;
+position:relative;
+left: 30%;
+ 
 }
 
-div.section1 {
-	display:inline-block;
-    float:left;
-    width:33%;
-}
-
-div.section2 {
-	display:inline-block;
-    float:left;
-    width:30%;
-}
-
-div.section3 {
-	display:inline-block;
-    float:right;
+ float:right;
 }
 
 
@@ -87,30 +79,59 @@ img {
 	clear:both;
 }
 
+section {
+    width:75%;
+    float:right;
+    background-color:red;
 
 
+}
+div.profil {
+    
+padding: 0% 0% 0% 9%;
+    
+}
+div.profil1 {
+    display:inline-block;
+}
+div.profil2 {
+    display:inline-block;
+}
+div.nav {
+   
+    width:25%;
+    padding:0% 0% 0% 0%;
+    background:white;
+    float:left;
+    display:block;
+    
+}
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 1%;
-    overflow: hidden;
-    background:#1a1a1a;
+list-style-type: none;
+margin: 0px;
+padding: 0% 0% 0% 34%;
+overflow: hidden;
+text-align: right;
 }
 
 li {
-    float: left;
+    float: right;
 }
 
 li a {
-    display: inline-block;
-    color: white;
-    text-align: center;
+    display: block;
+    text-align:right;
+    color: red;
     padding: 14px 16px;
     text-decoration: none;
+    font-size:22px;
 }
 
 li a:hover {
-    background-color: red;
+    display:;
+    background-color: darkgrey;
+ 
+    
 }
 
 .ul1 {
@@ -119,9 +140,7 @@ li a:hover {
 
 
 .twit {
-    text-align: center;
-    width: 50%;
-    float:left;
+   
 }
 
 div.twit:hover {
@@ -129,16 +148,17 @@ div.twit:hover {
 }
 
 .twit h4 {
-    float: right;
-    color:black;
-    position: inherit;
+    padding-right:16%;
+    color:red;
+    float:left;
     font-family: Verdana, Helvetica, sans-serif;
 }
 
 .gplus {
-    text-align: center;
-    width:50%;
-    float:right;
+
+
+
+
 }
 
 div.gplus:hover {
@@ -146,8 +166,17 @@ div.gplus:hover {
 }
 
 .gplus h4 {
-    float: right;
-    color:black;
-    position: relative;
+    padding-right:20%;
+    color:red;
+    float:left;
     font-family: Verdana, Helvetica, sans-serif;
+}
+hr {
+position: relative;
+
+right: 1%;
+width: 95%;
+}
+div.logo {
+    background-color:darkgrey;
 }
