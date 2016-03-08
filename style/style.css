@@ -36,19 +36,20 @@ span.jabatan {
 div.explanation {
 width: 29%;
 height: 100%;
-border-style: solid;
+border-style: double;
 border-color: #D3D3D3;
 border-width: 10px;
 margin-top: 5%;
 margin-bottom: 4%;
-padding: 2% 5%;
-background-color: #A9A9A9;
+padding: 0%;
+/* background-color: #A9A9A9; */
 position:relative;
-left: 30%;
+left: 34%;
  
 }
+div.exin {
+    background-color: darkgrey;
 
- float:right;
 }
 
 
