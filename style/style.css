@@ -83,6 +83,7 @@ section {
     width:75%;
     float:right;
     background-color:red;
+    margin-top:-1%;
 
 
 }
@@ -179,4 +180,7 @@ width: 95%;
 }
 div.logo {
     background-color:darkgrey;
+    margin-top: -3%;
+margin-left: -4%;
+padding-top: 2%;
 }
