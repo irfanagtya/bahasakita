@@ -83,10 +83,14 @@ img {
 section {
     width:75%;
     float:right;
-    background-color:red;
+    background:red;
     margin-top:-1%;
 
 
+}
+#wrapper {
+    background:url("BGhome.png");
+    padding: 35% 63%;
 }
 div.profil {
     
