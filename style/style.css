@@ -1,4 +1,3 @@
-
 html,body {
     width:100%;
 }
@@ -9,9 +8,11 @@ body {
 
 div.img {
 	margin:5px;
-	border:1px solid #ccc;
+	border:10px solid white;
 	float:left;
-	width:200px;
+	width:120px;
+    background:white;
+
 }
 
 div.img:hover {
@@ -19,18 +20,20 @@ div.img:hover {
 }
 
 div.img img {
-	width:100%;
-	height:auto;
+	width:120px;
+	height:140px;
 }
 
 div.desc {
-	padding:15px;
+
 	text-align:center;
+    background:white;
 }
 
 span.jabatan {
-	padding:15px;
+
 	text-align:center;
+    background:white;
 }
 
 div.explanation {
@@ -42,7 +45,7 @@ border-width: 10px;
 margin-top: 5%;
 margin-bottom: 4%;
 padding: 0%;
-/* background-color: #A9A9A9; */
+background-color: #A9A9A9; 
 position:relative;
 left: 34%;
  
@@ -63,17 +66,11 @@ display:block;
 }
 
 p.introduction {
-	text-align:center;
+    text-align:center;
     font-family: Verdana, Helvetica, sans-serif;
     font-size: 24px;
     color: white;
 }
-
-img {
-	margin-left:auto;
-	margin-right:auto;
-}
-
 
 
 .clearfix {
@@ -82,7 +79,7 @@ img {
 
 section {
     width:75%;
-    float:right;
+    float:left;
     background:red;
     margin-top:-1%;
 
@@ -94,18 +91,14 @@ section {
 }
 div.profil {
     
-padding: 0% 0% 0% 9%;
-    
-}
-div.profil1 {
-    display:inline-block;
-}
-div.profil2 {
-    display:inline-block;
+    display: inline-block;
+    padding: 0% 5% 0% 5%;
+
 }
 div.nav {
    
     width:25%;
+    height:100%;
     padding:0% 0% 0% 0%;
     background:white;
     float:left;
@@ -115,7 +108,7 @@ div.nav {
 ul {
 list-style-type: none;
 margin: 0px;
-padding: 0% 0% 0% 34%;
+padding: 0% 0% 0% 45%;
 overflow: hidden;
 text-align: right;
 }
@@ -163,8 +156,6 @@ div.twit:hover {
 .gplus {
 
 
-
-
 }
 
 div.gplus:hover {
@@ -184,8 +175,8 @@ right: 1%;
 width: 95%;
 }
 div.logo {
-    background-color:darkgrey;
-    margin-top: -3%;
+background-color:darkgrey;
+margin-top: -3%;
 margin-left: -4%;
 padding-top: 2%;
 }
