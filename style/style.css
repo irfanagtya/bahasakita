@@ -1,3 +1,6 @@
+* {
+    box-sizing:border-box;
+}
 html,body {
     width:100%;
 }
@@ -10,18 +13,18 @@ div.img {
 	margin:5px;
 	border:10px solid white;
 	float:left;
-	width:120px;
+	width:138px;
     background:white;
 
 }
 
 div.img:hover {
-	border: 1px solid #777;
+	border: 10px solid #777;
 }
 
 div.img img {
-	width:120px;
-	height:140px;
+	width:118px;
+	height:142px;
 }
 
 div.desc {
