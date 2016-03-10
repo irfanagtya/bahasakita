@@ -92,6 +92,35 @@ section {
     background:url("BGhome.png");
     padding: 35% 63%;
 }
+div.intermezo {
+position: absolute;
+left: 101%;
+top: 87%;
+right: -20%;
+
+}
+div.bahasa {
+    text-align:right;
+    background:white;
+    color:red;
+    position: relative;
+    left: -7%;
+    padding-top: 0.05%;
+    padding-bottom: 0.05%;
+    width: 107.5%;
+}
+div.nusantara {
+    text-align:right;
+    background:red;
+    color:white;
+    padding-top:0.05%;
+    padding-bottom:0.05%;
+}
+p.text {
+    text-align:right;
+    position:relative;
+    right:2%;
+}
 div.profil {
     
 padding: 0% 0% 0% 9%;
@@ -134,10 +163,12 @@ li a {
 }
 
 li a:hover {
-    display:;
-    background-color: darkgrey;
- 
-    
+    display:block;
+    background-color: darkgrey;    
+   /* width:100%; */
+}
+div.outerhov:hover {
+
 }
 
 .ul1 {
