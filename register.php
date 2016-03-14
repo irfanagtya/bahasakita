@@ -53,10 +53,10 @@ if($query) {
 		<section>
 		<div id="wrapperreg">
 		   <form class="register" method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-<label for="email">E-mail</label><input type="text" size="20" name="email"/><br />
-<label for="username">Username</label><input type="text" size="20" name="username"/><br />
-<label for="pass">Password</label><input type="text" size="20" name="password"/><br />
-<input type="submit" value="Daftar" name="submit"\>
+<input class="input_text" type="text" size="20" name="email" placeholder="Nama"/><br />
+<input class="input_text" type="text" size="20" name="username" placeholder="Username"/><br />
+<input class="input_text" type="text" size="20" name="password" placeholder="Passowrd"/><br />
+<input class="submit" type="submit" value="Daftar" name="submit"\>
 </form>
 </div>
 		</section>
@@ -64,4 +64,4 @@ if($query) {
 			
 </body>
 </html>
-
+"
