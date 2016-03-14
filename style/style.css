@@ -98,7 +98,7 @@ section {
     padding:35% 0%;
 }
 form.register {
-    background:white;
+    background:darkgrey;
     background-size:25% 25%;
     float:right;
  /*   padding:25% 25%; */
@@ -127,6 +127,21 @@ div.nusantara {
     color:white;
     padding-top:0.05%;
     padding-bottom:0.05%;
+}
+.input_text , .submit {
+    padding:2% 2% 2% 2%;
+    margin:2% 2% 2% 2%;
+    
+}
+.input_text {
+
+    width:300px;
+}
+.submit {
+    width:200px;
+    position:relative;
+    left:4%;
+
 }
 p.text {
     text-align:right;
