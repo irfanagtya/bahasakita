@@ -84,6 +84,7 @@ section {
     width:75%;
     float:left;
     background:red;
+    background-size:100% 100%;
     margin-top:-1%;
 
 
@@ -92,6 +93,15 @@ section {
     background:url("BGhome.png") no-repeat;
     background-size:100% 100%;
     padding: 35% 0%;
+}
+#wrapperreg{
+    padding:35% 0%;
+}
+form.register {
+    background:white;
+    background-size:25% 25%;
+    float:right;
+ /*   padding:25% 25%; */
 }
 div.intermezo {
 width:22%;
@@ -133,29 +143,28 @@ div.nav {
    
     width:25%;
     height:100%;
-    padding:0% 0% 0% 0%;
     background:white;
     float:left;
     display:block;
     
 }
 ul {
+width: 353px;
+padding-right: 4%;
 list-style-type: none;
-margin: 0px;
-padding: 0% 0% 0% 45%;
 overflow: hidden;
 text-align: right;
+padding-left: 0%;
 }
 
-li {
-    float: right;
-}
+
 
 li a {
+
     display: block;
     text-align:right;
     color: red;
-    padding: 14px 16px;
+    padding: 14px;
     text-decoration: none;
     font-size:22px;
 }
