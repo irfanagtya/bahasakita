@@ -101,6 +101,8 @@ form.register {
     background:darkgrey;
     background-size:25% 25%;
     float:right;
+    position: relative;
+right: 32%;
  /*   padding:25% 25%; */
 }
 div.intermezo {
