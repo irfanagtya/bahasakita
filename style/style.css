@@ -89,16 +89,18 @@ section {
 
 }
 #wrapper {
-    background:url("BGhome.png");
-    padding: 35% 63%;
+    background:url("BGhome.png") no-repeat;
+    background-size:100% 100%;
+    padding: 35% 0%;
 }
 div.intermezo {
+width:22%;
 position: absolute;
-left: 101%;
 top: 87%;
-right: -20%;
+left: 78.5%;
+right: 0%;
 
-}
+} 
 div.bahasa {
     text-align:right;
     background:white;
