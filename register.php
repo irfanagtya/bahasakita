@@ -19,7 +19,7 @@ $query=mysql_query("INSERT INTO data_user (email,username,password) VALUES ('$em
 if($query) {
 	echo "Pendaftaran berhasil!";
 //	sleep(5);
-	header('refresh:2; url='.$_SERVER['PHP_SELF']);
+	header('Location: kursus.html');
 
 }
 }

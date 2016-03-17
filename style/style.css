@@ -81,9 +81,10 @@ p.introduction {
 }
 
 section {
+    background:red;
+
     width:75%;
     float:right;
-    background:red;
     background-size:100% 100%;
     margin-top:-1%;
 
@@ -94,8 +95,23 @@ section {
     background-size:100% 100%;
     padding: 35% 0%;
 }
-#wrapperreg{
+#wrapperreg {
+    background:#d9d9d9;
+    background-size:100% 100%;
     padding:35% 0%;
+
+}
+#wrapperabout {
+    background:red !important;
+    background-size:100% 100%;
+    padding:35% 0%;
+    display:inline;
+}
+#wrapperkursus {
+     background:#d9d9d9;
+    background-size:100% 100%;
+    padding:35% 0%;
+   
 }
 form.register {
     background:darkgrey;
@@ -160,7 +176,7 @@ div.nav {
     position:fixed;
     width:25%;
     height:100%;
-    background:white;
+    background:#f5f5f0;
     float:left;
     display:block;
     
@@ -241,4 +257,8 @@ background-color:darkgrey;
 margin-top: -3%;
 margin-left: -4%;
 padding-top: 2%;
+}
+object.map {
+    width:900px;
+    height:500px;
 }
