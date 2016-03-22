@@ -1,15 +1,7 @@
 <?php
+include("connect.php");
 session_start();
-$hostname="localhost";
-$username="root";
-$password="";
-//Membuat koneksi
-$conn=mysql_connect($hostname,$username,$password);
-$db=mysql_select_db('bahasakitaDB',$conn);
-//Mengecek koneksi
-if(!$conn) {
-	die("Connection failed: ".mysqli_connect_error());
-}
+
 if(isset($_POST['submit'])) {
 $uname=mysql_real_escape_string($_POST["username"]);
 $email=mysql_real_escape_string($_POST["email"]);
